@@ -18,7 +18,7 @@ function Terms() {
 
   return (
     <div>
-        <StudentFormDialog/>
+        <StudentFormDialog />
     <TableContainer component={Paper}>
       <Table>
         <TableHead>
