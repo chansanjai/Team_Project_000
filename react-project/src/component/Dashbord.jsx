@@ -3,6 +3,7 @@ import  './Main.css'
 import { Box, List, ListItem, ListItemText, Typography} from "@mui/material";
 import Profile from "./Profile";
 import About from "./About"
+import Terms from "./Terms";
 function Dashboard() {
   const [selectedPage, setSelectedPage] = useState("Home");
 
@@ -10,7 +11,7 @@ function Dashboard() {
   const pageContent = {
     Home: <About/>,
     About: <Typography variant="h6">About Us: Learn more about our mission and vision.</Typography>,
-    Terms: <Typography variant="h6">Terms and Conditions: Please read carefully.</Typography>,
+    Terms: <Terms />,
     Project: <Typography variant="h6">Projects: Explore our projects here.</Typography>,
     Setting: <Typography variant="h6">Settings: Adjust your preferences here.</Typography>,
     Profile: <Typography variant="h6">Profile: View and edit your profile.</Typography>,
