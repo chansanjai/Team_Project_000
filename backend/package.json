@@ -5,6 +5,10 @@
     "init": "^0.1.2",
     "mon": "^0.0.8",
     "mysql": "^2.18.1",
-    "node": "^18.20.5"
+    "node": "^18.20.5",
+    "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  }
   }
 }

@@ -9,6 +9,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Loginpage />} />
         <Route path="/dashboard" element={<Dashbord />} />
+       
       </Routes>
     </Router>
   );
